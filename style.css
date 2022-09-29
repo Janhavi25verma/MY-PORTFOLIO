@@ -1,0 +1,23 @@
+/* Global Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px; for 1rem=10px, actual 1 rem=16px*/
+  font-size: 62.5%; /*percentage of users browser fontsize setting*/
+}
+body {
+  font-family: sans-serif;
+  color: rgb(56, 44, 44);
+  line-height: 1.5; /*gap between lines */
+  font-weight: 400;
+}
+/*Section-1*/
+.section-1-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section-1-image {
+}
