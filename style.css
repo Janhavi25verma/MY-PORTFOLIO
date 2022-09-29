@@ -7,6 +7,7 @@
 html {
   /* font-size: 10px; for 1rem=10px, actual 1 rem=16px*/
   font-size: 62.5%; /*percentage of users browser fontsize setting*/
+  scroll-behavior: smooth;
 }
 body {
   font-family: "inter", sans-serif;
