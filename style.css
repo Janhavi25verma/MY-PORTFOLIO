@@ -29,6 +29,25 @@ body {
   font-size: 4rem;
   margin-left: 3rem;
 }
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: rgb(56, 44, 44);
+  font-weight: 1.8rem;
+  font-size: 2.5rem;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  background-color: rgba(56, 44, 44, 0.237);
+  padding: 1rem 1rem;
+  border-radius: 1.2rem;
+}
 /*main body section 1*/
 .section-1 {
   background-color: rgba(231, 212, 186, 0.621);
