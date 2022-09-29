@@ -17,9 +17,17 @@ body {
 /*Section-1*/
 .section-1-intro {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  max-width: 130rem;
+  background-color: rgba(231, 212, 186, 0.827);
+  margin: 0 auto;
 }
 .myphoto {
-  height: 70%;
-  width: 55%;
+  width: 100%;
+}
+.section-1-text {
+  font-size: 2.5rem;
+}
+.trainee {
+  color: rgba(56, 44, 44, 0.623);
 }
