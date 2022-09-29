@@ -19,6 +19,8 @@ body {
 /*header*/
 .header {
   display: flex;
+  position: sticky;
+  top: 0; /*for header to stay while scrolling*/
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -74,9 +76,9 @@ body {
   margin-top: 20rem;
 }
 .trainee {
-  color: rgba(56, 44, 44, 0.623);
-  font-size: 2rem;
-  line-height: 1;
+  color: rgba(56, 44, 44, 0.645);
+  line-height: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 .btn:link,
@@ -152,4 +154,15 @@ body {
   padding: 3rem;
   font-size: 2rem;
   height: 8rem;
+  margin-bottom: 10rem;
+}
+/*------------------Section3-------------------------*/
+.skill-section {
+  display: grid;
+  margin-top: 5rem;
+  justify-content: center;
+  align-content: center;
+}
+.skill-heading {
+  font-size: 4rem;
 }
