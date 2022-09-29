@@ -15,19 +15,29 @@ body {
   font-weight: 400;
 }
 /*Section-1*/
+.section-1 {
+  background-color: rgba(231, 212, 186, 0.621);
+}
 .section-1-intro {
   display: grid;
   grid-template-columns: 1fr 2fr;
   max-width: 130rem;
-  background-color: rgba(231, 212, 186, 0.827);
+  column-gap: 6rem;
   margin: 0 auto;
+  align-item: center;
 }
 .myphoto {
   width: 100%;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
 }
 .section-1-text {
   font-size: 2.5rem;
+  letter-spacing: -0.9px;
+  margin-top: 20rem;
 }
 .trainee {
   color: rgba(56, 44, 44, 0.623);
+  font-size: 2rem;
+  line-height: 1;
 }
