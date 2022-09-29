@@ -20,16 +20,18 @@ body {
 }
 .section-1-intro {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   max-width: 130rem;
   column-gap: 6rem;
   margin: 0 auto;
+  justify-content: center;
   align-item: center;
 }
 .myphoto {
-  width: 100%;
+  width: 70%;
   margin-bottom: 2.5rem;
   margin-top: 2.5rem;
+  justify-self: center;
 }
 .section-1-text {
   font-size: 2.5rem;
@@ -40,4 +42,15 @@ body {
   color: rgba(56, 44, 44, 0.623);
   font-size: 2rem;
   line-height: 1;
+  margin-bottom: 1rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(56, 44, 44, 0.623);
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 1.2rem;
 }
