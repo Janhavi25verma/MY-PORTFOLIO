@@ -96,50 +96,59 @@ body {
 /*REUSABLE GRID for About Me section*/
 .section-how {
   padding: 5rem 5rem;
-  background-color: blue;
-  column-gap: 0.5rem;
-  row-gap: 0.5rem;
+  background-color: #fff;
+  column-gap: 0rem;
+  row-gap: 0rem;
 }
 .grid {
   display: grid;
   gap: 1rem;
+  row-gap: 5rem;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-content: center;
 }
 .section-how div {
-  padding: 10rem;
+  padding: 1rem;
   font-size: 5rem;
 }
 .section-how div:nth-child(1) {
-  background-color: red;
+  background-color: #fff;
   grid-column: 1/-1;
   justify-self: center;
   align-self: center;
   height: 1rem;
   padding: 4rem 8rem;
   font-size: 3rem;
+  color: rgba(56, 44, 44, 0.855);
+  text-decoration: underline;
 }
 .about-me-text {
   align-self: center;
   justify-self: center;
   padding: 3rem;
   font-size: 2rem;
+  border-style: solid;
+  border-color: rgba(57, 54, 54, 0.267);
+  border-radius: 3rem;
 }
 .section-how div:nth-child(2) {
-  background-color: greenyellow;
+  background-color: #fff;
   grid-column: 1/-1;
+  height: 8rem;
 
   padding: 3rem;
   font-size: 2rem;
 }
 .section-how div:nth-child(3) {
-  background-color: green;
+  background-color: #fff;
   padding: 3rem;
   font-size: 2rem;
+  height: 8rem;
 }
 .section-how div:nth-child(4) {
-  background-color: grey;
+  background-color: #fff;
   padding: 3rem;
   font-size: 2rem;
+  height: 8rem;
 }
