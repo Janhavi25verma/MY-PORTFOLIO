@@ -93,3 +93,31 @@ body {
 .btn:active {
   background-color: #290e14;
 }
+/*REUSABLE GRID for About Me section*/
+.section-how {
+  padding: 3rem 5rem;
+  background-color: blue;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+ 
+
+.section-how div {
+  padding: 10rem;
+  font-size: 5rem;
+}
+.section-how div:nth-child(1) {
+  background-color: red;
+  grid-column: 1/-1;
+ 
+  align-self: center;
+}
+.section-how div:nth-child(2) {
+  background-color: greenyellow;
+  grid-column: 1/-1;
+}
+.section-how div:nth-child(3) {
+  background-color: green;
+}
+.section-how div:nth-child(4) {
+  background-color: grey;
+}
