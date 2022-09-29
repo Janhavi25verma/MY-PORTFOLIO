@@ -9,12 +9,27 @@ html {
   font-size: 62.5%; /*percentage of users browser fontsize setting*/
 }
 body {
-  font-family: sans-serif;
+  font-family: "inter", sans-serif;
   color: rgb(56, 44, 44);
   line-height: 1.5; /*gap between lines */
   font-weight: 400;
 }
 /*Section-1*/
+/*header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  /*because we want header to be sticky later*/
+  height: 9.6rem;
+  padding: 0 3rem;
+}
+.portfolio {
+  font-size: 4rem;
+  margin-left: 3rem;
+}
+/*main body section 1*/
 .section-1 {
   background-color: rgba(231, 212, 186, 0.621);
 }
@@ -53,4 +68,9 @@ body {
   color: #fff;
   padding: 1rem 1rem;
   border-radius: 1.2rem;
+  transition: all 0.3s; /*change color gradually*/
+}
+.btn:hover,
+.btn:active {
+  background-color: #290e14;
 }
