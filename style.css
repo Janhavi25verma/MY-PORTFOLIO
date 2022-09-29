@@ -19,5 +19,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.section-1-image {
+.myphoto {
+  height: 70%;
+  width: 55%;
 }
