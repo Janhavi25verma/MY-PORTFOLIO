@@ -186,21 +186,26 @@ body {
   border-radius: 2rem;
 }
 .skill-section div:nth-child(1) {
-  background-color: rgba(231, 212, 186, 0.621);
+  background-color: rgba(231, 212, 186, 0);
   border: none;
   margin: none;
   padding: none;
   grid-column: 1/-1;
   justify-self: start;
+  align-self: center;
   height: 8rem;
   margin-left: 5rem;
   font-size: 2rem;
-  line-height: 2.5rem;
-  color: rgba(56, 44, 44, 0.855);
+  line-height: 3rem;
+  color: rgba(56, 44, 44, 0.69);
+}
+.skill-heading {
+  font-size: 4rem;
 }
 .volleyteam {
   padding-right: 2.7rem;
   width: 27rem;
+  height: 15rem;
 }
 .skill-section div:nth-child(2) {
   background-color: #fff;
@@ -227,7 +232,65 @@ body {
   padding: 3rem;
   font-size: 2rem;
 }
+.photography {
+  padding-right: 2.7rem;
+  width: 27rem;
+  height: 16rem;
+}
+.insta-page-btn:link,
+.insta-page-btn:visited {
+  text-decoration: none;
+  font-weight: 1.8rem;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  color: rgba(56, 44, 44, 0.855);
+  background-color: rgba(168, 167, 167, 0.137);
+}
+.insta-page-btn:hover,
+.insta-page-btn:active {
+  background-color: rgba(231, 212, 186, 0.299);
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+}
 /*----------Card and card text------------------------*/
 .card {
   box-shadow: 0 1rem 1rem 0 rgba(56, 44, 44, 0.855);
+}
+/*----------------------Contact Me-----------------------------*/
+.contact-section {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding: 5rem 5rem;
+  background-color: rgba(231, 212, 186, 0.621);
+  height: 60rem;
+}
+.grid2 {
+  display: grid;
+  row-gap: 5rem;
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+.contact-section div {
+  padding: 6rem;
+  justify-self: center;
+  align-self: center;
+  border-radius: 2rem;
+}
+.contact-section div:nth-child(1) {
+  background-color: #fff;
+
+  padding: 3rem;
+  font-size: 2rem;
+}
+.contact-section div:nth-child(2) {
+  background-color: #fff;
+
+  padding: 3rem;
+  font-size: 2rem;
 }
