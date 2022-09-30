@@ -73,9 +73,48 @@
     height: 15rem;
   }
   .section-how div:nth-child(3) {
-    height: 15rem;
+    height: 25rem;
   }
   .section-how div:nth-child(4) {
     height: 25rem;
+  }
+}
+/*--------------------------------------------------------------*/
+@media (max-length: 61em) {
+  /*-----------section-1-------------------------------*/
+  .myphoto {
+    width: 85%;
+  }
+  /*------------------section2--------------------------------*/
+  .section-how div:nth-child(1) {
+    height: 20rem;
+  }
+  .section-how div:nth-child(2) {
+    height: 20rem;
+  }
+  .section-how div:nth-child(3) {
+    height: 40rem;
+    padding-bottom: 10rem;
+  }
+  .section-how div:nth-child(4) {
+    height: 40rem;
+  }
+  /*--------------section3------------------------------*/
+  .skill-section div:nth-child(1) {
+    font-size: 6rem;
+    height: 10rem;
+  }
+  .skill-section div:nth-child(2) {
+    height: 30rem;
+    width: 20rem;
+    padding: 2rem;
+  }
+  .skill-section div:nth-child(3) {
+    height: 30rem;
+    width: 20rem;
+  }
+  .skill-section div:nth-child(4) {
+    height: 30rem;
+    width: 20rem;
   }
 }
