@@ -158,11 +158,56 @@ body {
 }
 /*------------------Section3-------------------------*/
 .skill-section {
+  margin-top: 2rem;
+  padding: 5rem 5rem;
+  background-color: blue;
+  column-gap: 0;
+  row-gap: 0;
+}
+.grid1 {
   display: grid;
-  margin-top: 5rem;
+  gap: 1rem;
+  row-gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-content: center;
 }
-.skill-heading {
-  font-size: 4rem;
+.skill-section div {
+  padding: 9rem;
+  font-size: 5rem;
+}
+.skill-section div:nth-child(1) {
+  background-color: green;
+  grid-column: 1/-1;
+  justify-self: center;
+  align-self: center;
+  height: 1rem;
+  padding: 10rem 8rem;
+  font-size: 3rem;
+  color: rgba(56, 44, 44, 0.855);
+  text-decoration: underline;
+}
+.skill-section div:nth-child(2) {
+  background-color: grey;
+  grid-column: 1/2;
+  height: 12rem;
+
+  padding: 3rem;
+  font-size: 2rem;
+}
+.skill-section div:nth-child(3) {
+  background-color: red;
+  grid-column: 2/3;
+  height: 12rem;
+
+  padding: 3rem;
+  font-size: 2rem;
+}
+.skill-section div:nth-child(4) {
+  background-color: orange;
+  grid-column: 3/4;
+  height: 12rem;
+
+  padding: 3rem;
+  font-size: 2rem;
 }
