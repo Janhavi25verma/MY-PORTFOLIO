@@ -283,9 +283,10 @@ body {
   border-radius: 2rem;
 }
 .contact-section div:nth-child(1) {
-  matgin-bottom: 0;
-  padding: 2rem;
+  margin-bottom: 0;
+  padding: 2rem 2rem 0 2rem;
   font-size: 2.5rem;
+  color: rgba(56, 44, 44, 0.69);
 }
 .contact-section div:nth-child(2) {
   background-color: #fff;
@@ -332,4 +333,13 @@ body {
   width: 100%;
 
   border-radius: 1rem;
+}
+.submit-button {
+  margin-left: 42%;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: rgba(56, 44, 44, 0.371);
+  padding: 1rem 1.6rem;
+  color: rgba(37, 26, 26, 0.725);
+  font-size: 2rem;
 }
