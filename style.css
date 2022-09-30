@@ -270,27 +270,66 @@ body {
 }
 .grid2 {
   display: grid;
-  row-gap: 5rem;
+  row-gap: 3rem;
   grid-template-rows: repeat(2, 1fr);
   margin: 0 auto;
   justify-content: center;
   align-content: center;
 }
 .contact-section div {
-  padding: 6rem;
+  padding: 2rem;
   justify-self: center;
   align-self: center;
   border-radius: 2rem;
 }
 .contact-section div:nth-child(1) {
-  background-color: #fff;
-
-  padding: 3rem;
-  font-size: 2rem;
+  matgin-bottom: 0;
+  padding: 2rem;
+  font-size: 2.5rem;
 }
 .contact-section div:nth-child(2) {
   background-color: #fff;
-
+  height: 40rem;
+  width: 45rem;
   padding: 3rem;
   font-size: 2rem;
+  margin-top: 0;
+  box-shadow: 0 1rem 1rem 0 rgba(56, 44, 44, 0.855);
+}
+/*---------------------Form Design-----------------------------*/
+.label-name {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 1.5rem;
+}
+.form-name {
+  padding: 1rem;
+  margin: 0 1rem 2rem 1rem;
+
+  width: 100%;
+  border-radius: 1rem;
+}
+.label-email {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 1.5rem;
+}
+.form-email {
+  padding: 1rem;
+  margin: 0 1rem 2rem 1rem;
+
+  width: 100%;
+  border-radius: 1rem;
+}
+.label-message {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 1.5rem;
+}
+.form-message {
+  padding: 1rem;
+  margin: 0 1rem 2rem 1rem;
+  width: 100%;
+
+  border-radius: 1rem;
 }
