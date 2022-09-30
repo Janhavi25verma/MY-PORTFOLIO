@@ -1,0 +1,81 @@
+@media (max-width: 93em) {
+  .section-how {
+    max-width: 130rem;
+    padding: 7rem 7rem;
+    margin-top: 0;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .grid {
+    row-gap: 7rem;
+  }
+  .section-how div:nth-child(2) {
+    margin-left: 3rem;
+    margin-right: 5rem;
+  }
+  .section-how div:nth-child(4) {
+    height: 3rem;
+  }
+  .section-how div:nth-child(3) {
+    height: 4rem;
+  }
+}
+
+@media (max-width: 88em) {
+  .grid {
+    height: 70rem;
+  }
+}
+@media (max-width: 78em) {
+  .section-1 {
+    height: 70rem;
+  }
+  .grid {
+    height: 80rem;
+  }
+  /*--------section2-----------------------------*/
+  .section-how {
+    padding-top: 3rem;
+  }
+  .grid1 {
+    height: 90rem;
+    row-gap: 7rem;
+  }
+  /*-----section 4-------------------------------*/
+  .grid2 {
+    row-gap: 3rem;
+  }
+  .contact-section div:nth-child(2) {
+    margin-bottom: 11rem;
+  }
+}
+@media (max-width: 68em) {
+  .section-1 {
+    height: 90rem;
+  }
+  .myphoto {
+    width: 70%;
+  }
+  .section-1-text {
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  /*-----------section2-----------------------*/
+  .grid {
+    height: 100rem;
+    border: none;
+    row-gap: 3rem;
+  }
+  .section-how div:nth-child(1) {
+    height: 15rem;
+  }
+  .section-how div:nth-child(2) {
+    height: 15rem;
+  }
+  .section-how div:nth-child(3) {
+    height: 15rem;
+  }
+  .section-how div:nth-child(4) {
+    height: 25rem;
+  }
+}

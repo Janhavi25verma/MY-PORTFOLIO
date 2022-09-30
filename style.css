@@ -15,7 +15,7 @@ body {
   line-height: 1.5; /*gap between lines */
   font-weight: 400;
 }
-/*Section-1*/
+/*--------------------header-----------------------*/
 /*header*/
 .header {
   display: flex;
@@ -51,29 +51,40 @@ body {
   padding: 1rem 1rem;
   border-radius: 1.2rem;
 }
-/*main body section 1*/
+/*---------------------- section 1---------------------*/
 .section-1 {
   background-color: rgba(231, 212, 186, 0.621);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  height: 60rem;
 }
 .section-1-intro {
-  display: grid;
+  /*display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 130rem;
   column-gap: 6rem;
   margin: 0 auto;
   justify-content: center;
-  align-item: center;
+  align-content: center;*/
 }
 .myphoto {
-  width: 70%;
+  width: 50%;
   margin-bottom: 2.5rem;
   margin-top: 2.5rem;
+  margin-left: 15rem;
   justify-self: center;
+  align-self: center;
 }
 .section-1-text {
   font-size: 2.5rem;
   letter-spacing: -0.9px;
-  margin-top: 20rem;
+  margin-top: 7rem;
+  justify-self: start;
+  align-self: center;
 }
 .trainee {
   color: rgba(56, 44, 44, 0.645);
@@ -102,6 +113,8 @@ body {
   background-color: #fff;
   column-gap: 0rem;
   row-gap: 0rem;
+  max-width: 160rem;
+  border: none;
 }
 .grid {
   display: grid;
@@ -139,9 +152,11 @@ body {
   background-color: #fff;
   grid-column: 1/-1;
   height: 8rem;
-
-  padding: 3rem;
+  margin-left: 10rem;
+  padding: 2rem;
   font-size: 2rem;
+  justify-self: center;
+  align-self: center;
 }
 .section-how div:nth-child(3) {
   background-color: #fff;
@@ -153,7 +168,8 @@ body {
   background-color: #fff;
   padding: 3rem;
   font-size: 2rem;
-  height: 8rem;
+  height: 4rem;
+
   margin-bottom: 10rem;
 }
 /*------------------Section3-------------------------*/
@@ -260,7 +276,7 @@ body {
 .card {
   box-shadow: 0 1rem 1rem 0 rgba(56, 44, 44, 0.855);
 }
-/*----------------------Contact Me-----------------------------*/
+/*----------------------Contact Me section4-----------------------------*/
 .contact-section {
   margin-top: 5rem;
   margin-bottom: 2rem;
