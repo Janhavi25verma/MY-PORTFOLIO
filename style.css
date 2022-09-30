@@ -162,7 +162,7 @@ body {
   margin-bottom: 2rem;
   margin-right: 5rem;
   padding: 5rem 5rem;
-  background-color: blue;
+  background-color: rgba(231, 212, 186, 0.621);
   column-gap: 40rem;
   row-gap: 30rem;
   height: 60rem;
@@ -183,43 +183,51 @@ body {
   width: 30rem;
   justify-self: center;
   align-self: center;
+  border-radius: 2rem;
 }
 .skill-section div:nth-child(1) {
-  background-color: green;
+  background-color: rgba(231, 212, 186, 0.621);
+  border: none;
+  margin: none;
+  padding: none;
   grid-column: 1/-1;
-
-  height: 5rem;
-  width: 6rem;
-
-  font-size: 3rem;
+  justify-self: start;
+  height: 8rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   color: rgba(56, 44, 44, 0.855);
 }
 .volleyteam {
-  padding-right: 2.5rem;
+  padding-right: 2.7rem;
   width: 27rem;
 }
 .skill-section div:nth-child(2) {
-  background-color: grey;
+  background-color: #fff;
   grid-column: 1/2;
 
   padding: 3rem;
   font-size: 2rem;
 }
 .javalogo {
-  padding-right: 2.5rem;
+  padding-right: 2.7rem;
   width: 27rem;
 }
 .skill-section div:nth-child(3) {
-  background-color: red;
+  background-color: #fff;
   grid-column: 2/3;
 
   padding: 3rem;
   font-size: 2rem;
 }
 .skill-section div:nth-child(4) {
-  background-color: orange;
+  background-color: #fff;
   grid-column: 3/4;
 
   padding: 3rem;
   font-size: 2rem;
+}
+/*----------Card and card text------------------------*/
+.card {
+  box-shadow: 0 1rem 1rem 0 rgba(56, 44, 44, 0.855);
 }
