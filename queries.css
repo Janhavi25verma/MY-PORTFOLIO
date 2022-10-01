@@ -347,3 +347,47 @@
     width: 49rem;
   }
 }
+@media (max-width: 27em) {
+  /*------------section2-------------------------*/
+  .section-how {
+    column-gap: 1.5rem;
+  }
+  .section-how div {
+    width: 30rem;
+    margin-left: 1rem;
+  }
+  .grid {
+    padding: 0rem;
+    margin: 0rem;
+    width: 55rem;
+    row-gap: 10rem;
+  }
+  .section-how div:nth-child(1) {
+    font-size: 2rem;
+  }
+  .section-how div:nth-child(2) {
+    font-size: 2rem;
+  }
+  .section-how div:nth-child(3) {
+    font-size: 2rem;
+  }
+  .section-how div:nth-child(4) {
+    font-size: 2rem;
+  }
+  /*-------section1,3,4-----------------------------*/
+  .section-1 {
+    width: 60rem;
+  }
+  .skill-section {
+    width: 60rem;
+  }
+  .contact-section {
+    width: 60rem;
+  }
+  .footer {
+    width: 60rem;
+  }
+  .header {
+    width: 60rem;
+  }
+}
