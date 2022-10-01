@@ -5,9 +5,11 @@
     margin-top: 0;
     margin-left: 7rem;
     margin-right: 7rem;
+    height: 70rem;
   }
   .grid {
     row-gap: 7rem;
+    height: 70rem;
   }
   .section-how div:nth-child(2) {
     margin-left: 3rem;
@@ -28,25 +30,29 @@
 }
 @media (max-width: 78em) {
   .section-1 {
-    height: 70rem;
+    height: 110rem;
   }
   .grid {
-    height: 80rem;
+    height: 110rem;
   }
   /*--------section2-----------------------------*/
   .section-how {
     padding-top: 3rem;
   }
   .grid1 {
-    height: 90rem;
+    height: 110rem;
     row-gap: 7rem;
   }
   /*-----section 4-------------------------------*/
   .grid2 {
     row-gap: 3rem;
+    height: 90rem;
   }
   .contact-section div:nth-child(2) {
     margin-bottom: 11rem;
+  }
+  .myphoto {
+    width: 70%;
   }
 }
 @media (max-width: 68em) {
@@ -80,14 +86,25 @@
   }
 }
 /*--------------------------------------------------------------*/
-@media (max-length: 61em) {
+@media (max-width: 63em) {
   /*-----------section-1-------------------------------*/
+  .section-1 {
+    height: 100rem;
+  }
+
   .myphoto {
-    width: 85%;
+    width: 75%;
   }
   /*------------------section2--------------------------------*/
+  .section-how {
+    height: 100rem;
+  }
+  .grid {
+    row-gap: 0;
+  }
   .section-how div:nth-child(1) {
     height: 20rem;
+    padding-bottom: 0rem;
   }
   .section-how div:nth-child(2) {
     height: 20rem;
@@ -100,21 +117,171 @@
     height: 40rem;
   }
   /*--------------section3------------------------------*/
+  .skill-section {
+    row-gap: 10rem;
+  }
+  .skill-heading {
+    font-size: 5rem;
+  }
+  .skill-section div {
+    height: 35rem;
+    width: 25rem;
+  }
+  .volleyteam {
+    padding-right: 2.7rem;
+    width: 22rem;
+    height: 14rem;
+  }
+  .javalogo {
+    padding-right: 2.7rem;
+    width: 22rem;
+    height: 14rem;
+  }
+  .photography {
+    padding-right: 2.7rem;
+    width: 22rem;
+    height: 14rem;
+  }
   .skill-section div:nth-child(1) {
-    font-size: 6rem;
-    height: 10rem;
   }
   .skill-section div:nth-child(2) {
-    height: 30rem;
-    width: 20rem;
-    padding: 2rem;
   }
   .skill-section div:nth-child(3) {
+  }
+  .skill-section div:nth-child(4) {
+  }
+}
+/*------------------------------------------------------------------*/
+@media (max-width: 54em) {
+  /*---------------Section2-----------------------------*/
+  .section-how {
+    height: 110rem;
+  }
+  .grid {
+    row-gap: 4rem;
+  }
+  .section-how div:nth-child(1) {
+    height: 20rem;
+    padding-bottom: 0rem;
+  }
+  .section-how div:nth-child(2) {
+    height: 20rem;
+  }
+  .section-how div:nth-child(3) {
+    height: 40rem;
+    padding-bottom: 10rem;
+  }
+  .section-how div:nth-child(4) {
+    height: 40rem;
+  }
+  /*-----------------section3-----------------------------------*/
+  .skill-section {
+    row-gap: 10rem;
+  }
+  .skill-heading {
+    font-size: 6rem;
+    line-height: 4rem;
+  }
+  .skill-section div {
     height: 30rem;
     width: 20rem;
   }
+  .volleyteam {
+    padding-right: 2.7rem;
+    width: 17rem;
+    height: 9rem;
+  }
+  .javalogo {
+    padding-right: 2.7rem;
+    width: 17rem;
+    height: 9rem;
+  }
+  .photography {
+    padding-right: 2.7rem;
+    width: 17rem;
+    height: 9rem;
+  }
+}
+/*------------------------------------------------------------*/
+@media (max-width: 46em) {
+  /*--------------------section1-----------------------------*/
+  .myphoto {
+    width: 70%;
+  }
+  .section-1-text {
+    font-size: 2rem;
+  }
+  /*------------------------Section-3-----------------------*/
+  .skill-section {
+    row-gap: 13rem;
+  }
+  .skill-heading {
+    font-size: 6rem;
+    line-height: 4rem;
+  }
+  .skill-section div {
+    height: 25rem;
+    width: 15rem;
+  }
+  .volleyteam {
+    padding-right: 4rem;
+    margin-left: 0rem;
+    width: 14rem;
+    height: 6rem;
+  }
+  .javalogo {
+    padding-right: 4rem;
+    width: 14rem;
+    height: 6rem;
+  }
+  .photography {
+    padding-right: 4rem;
+    width: 14rem;
+    height: 6rem;
+  }
+  .skill-section div:nth-child(1) {
+  }
+  .skill-section div:nth-child(2) {
+    line-height: 2rem;
+    font-size: 1.7rem;
+  }
+  .skill-section div:nth-child(3) {
+    line-height: 2rem;
+    font-size: 1.7rem;
+  }
   .skill-section div:nth-child(4) {
-    height: 30rem;
-    width: 20rem;
+    line-height: 2rem;
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 39em) {
+  /*----------header-------------------------*/
+  .portfolio {
+    font-size: 3rem;
+    margin-left: 1.7rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+  /*---------------section1-------------*/
+  .myphoto {
+    width: 75%;
+    margin-left: 9rem;
+  }
+  .section-1-text {
+    font-size: 1.7rem;
+  }
+  /*-------------section3-----------------------------*/
+  .skill-section div:nth-child(1) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .skill-heading {
+    font-size: 4rem;
+  }
+  /*-----------footer------------------------------------*/
+  .logo {
+    margin-left: 30%;
   }
 }

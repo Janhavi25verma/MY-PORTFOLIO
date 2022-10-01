@@ -116,6 +116,7 @@ body {
   row-gap: 0rem;
   max-width: 160rem;
   border: none;
+  height: 70rem;
 }
 .grid {
   display: grid;
@@ -182,7 +183,7 @@ body {
   background-color: rgba(231, 212, 186, 0.621);
   column-gap: 40rem;
   row-gap: 30rem;
-  height: 60rem;
+  height: 70rem;
 }
 .grid1 {
   display: grid;
@@ -367,7 +368,7 @@ body {
 }
 .logo {
   width: 3rem;
-  height: 3rem;
+  height: 2.5rem;
   display: flex;
   gap: 2.5rem;
   align-content: center;
